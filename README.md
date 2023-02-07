@@ -1,36 +1,46 @@
 # Simple Facial Recognition with OpenCV and Raspberry Pi 4
+This repository contains a simple facial recognition system using OpenCV and Raspberry Pi 4. The system uses the Haar cascade classifier for facial detection and the Raspberry Pi's Picamera for video capture.
 
-This project demonstrates how to implement a simple facial recognition system using OpenCV and Raspberry Pi 4. OpenCV is an open-source computer vision and machine learning library that provides pre-trained algorithms for facial recognition.
+## Prerequisites
+Raspberry Pi 4
+Picamera
+OpenCV
 
-## Requirements
-- Raspberry Pi 4
-- OpenCV
-- Haar cascade classifier
+## Installation
+Check that your Picamera is working properly by running the following command:
+```libcamera-hello```
 
-## Getting Started
+Update and upgrade your Raspberry Pi by running the following commands:
+```
+sudo apt-get update
+sudo apt-get upgrade
+```
 
-1. Update and upgrade your Raspberry Pi:
-    ```bash
-    sudo apt-get update
-    sudo apt-get upgrade
-    ```
+Install the required libraries by running the following command:
+```
+sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev
+sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+sudo apt-get install libxvidcore-dev libx264-dev
+sudo apt-get install qt4-dev-tools
+```
+Install OpenCV by running the following command:
+```
+pip install opencv-python
+```
 
-2. Install the required libraries:
-    ```bash
-    sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev
-    sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
-    sudo apt-get install libxvidcore-dev libx264-dev
-    sudo apt-get install qt4-dev-tools
-    ```
+## Usage
+Clone the repository by running the following command:
+```
+git clone https://github.com/calapsss/face_detection_tutorial.git
+```
 
-3. Install OpenCV:
-    ```bash
-    pip install opencv-python
-    ```
+Run the code by using the following command:
+```
+python face_detection_tutorial.py
+```
 
-4. Run the code
-    ```bash
-        python3 face_detection.py
-    ```
+## Conclusion
+With this project, you can now build your own facial recognition system and get a hands-on experience in computer vision and machine learning. If you encounter any issues or have any questions, feel free to reach out to us through the GitHub repository. Our team will be happy to assist you in resolving any issues and answering any questions you may have.
 
-
+## License
+This project is licensed under the MIT License.

@@ -3,8 +3,6 @@ import cv2
 
 from picamera2 import Picamera2
 
-# Grab images as numpy arrays and leave everything else to OpenCV.
-
 face_detector = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 cv2.startWindowThread()
 
