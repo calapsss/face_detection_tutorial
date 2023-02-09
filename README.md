@@ -1,5 +1,7 @@
 # Simple Facial Recognition with OpenCV and Raspberry Pi 4
 This repository contains a simple facial recognition system using OpenCV and Raspberry Pi 4. The system uses the Haar cascade classifier for facial detection and the Raspberry Pi's Picamera for video capture.
+The full tutorial is in https://blog.devgenius.io/effortlessly-build-your-own-facial-recognition-system-with-opencv-and-raspberry-pi-4-a-adccba92e6bb
+
 
 ## Prerequisites
 Raspberry Pi 4
